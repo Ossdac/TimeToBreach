@@ -1,2 +1,15 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Unreal assets and other binaries: never normalise or diff as text
+*.uasset binary
+*.umap binary
+*.upk binary
+*.png binary
+*.jpg binary
+*.tga binary
+*.wav binary
+*.ogg binary
+*.mp3 binary
+*.ttf binary
+*.otf binary
